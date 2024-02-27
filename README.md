@@ -47,8 +47,7 @@ talkerを実行したターミナルには何も表示されませんが、liste
 * ROS 2 foxy または ROS 2 humble
 
 ## テスト環境
-* Ubuntu 20.04 LTS
-* Ubuntu 22.04 LTS
+* Ubuntu
 
 
 ## ライセンス
