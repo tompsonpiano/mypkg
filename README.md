@@ -5,17 +5,6 @@
 
 ROS2のノード通信により、talkerが発信した内容をlistenerが受け取ります。
 
-## インストール方法
-```
-# ROS2内のsrcディレクトリで以下のコマンドを実行し、リポジトリをダウンロードしてください
-git clone https://github.com/tompsonpiano/mypkg.git
-
-# パッケージのビルド
-cd ~/ros2_ws
-colcon build
-source devel/setup.bash
-```
-
 ## 使用方法
 本ソフトウェアの使用にはターミナルを二つ開く必要があります。
 片方のターミナルには以下のコマンドを、
@@ -53,5 +42,5 @@ talkerを実行したターミナルには何も表示されませんが、liste
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-* [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Tomohiro Hayashi
