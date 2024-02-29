@@ -1,9 +1,11 @@
 # mypkg
 * ![test](https://github.com/tompsonpiano/ros2_ws/actions/workflows/test.yml/badge.svg)
 
-ロボットシステム学の練習用ディレクトリです。
+ロボットシステム学の練習用パッケージです。
 
-ROS2のノード通信により、talkerが発信した内容をlistenerが受け取ります。
+ROS 2のノード通信により、talkerが発信した内容をlistenerが受け取ることができます。
+
+本プログラムでは"countup"と呼ばれるトピックを使用して通信が行われます。そのため、同名のトピックを使用した通信であれば他のプログラムでも使用できます。
 
 ## 使用方法
 本ソフトウェアの使用にはターミナルを二つ開く必要があります。
@@ -33,7 +35,9 @@ talkerを実行したターミナルには何も表示されませんが、liste
 
 ## 必要なソフトウェア
 * Python 3
-* ROS 2 foxy または ROS 2 humble
+* ROS 2 
+    * foxy
+    * humble
 
 ## テスト環境
 * Ubuntu
