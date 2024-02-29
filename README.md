@@ -36,8 +36,7 @@ ros2 run mypkg listener
 ## 必要なソフトウェア
 * Python 3
 * ROS 2 
-    * foxy
-    * humble
+    * foxy または humble
 
 ## テスト環境
 * Ubuntu
