@@ -5,11 +5,20 @@
 
 ROS 2のノード通信により、パブリッシャー(talker)が発信した内容をサブスクライバー(listener)が受け取り表示します。
 
-本プログラムでは"countup"と呼ばれるトピックを使用して通信が行われます。
+本パッケージに含まれるノードは"countup"と呼ばれるトピックを使用して通信が行われます。
 
 ## 使用方法
-本パッケージで通信を行うためには、ターミナルを二つ以上開く必要があります。
-パブリッシャーのターミナルには以下のコマンドを、
+本パッケージを、ROS 2のワークスペースのsrcに以下のように配置してください。
+```
+...
+└── src
+    ├── mypkg       #本パッケージ
+    │   ├── LICENSE
+    │   ├── README.md
+    │   ├── launch
+    │   │   └── ...
+    │   ├── ...
+```
 ```
 ros2 run mypkg talker
 ```
@@ -46,4 +55,4 @@ ros2 run mypkg listener
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-* © 2023 Tomohiro Hayashi
+© 2023 Tomohiro Hayashi
