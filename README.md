@@ -37,6 +37,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
+
 2つのターミナルでtalker.pyとlistener.pyをそれぞれ実行すると、以下のように表示されます。
 ```
 ...
@@ -46,12 +47,14 @@ $ ros2 run mypkg listener
 [INFO] [1707039924.976169939] [listener]: Listen: 10
 ...
 ```
+
 ## talk_listen.launch.py
 本ノードは一つの端末内でtalker.pyとlistener.pyを実行することができます。
 以下のコマンドで実行できます。
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
+
 実行されると、以下のように表示されます。
 ```
 ...
@@ -61,6 +64,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1709293047.646416228] [listener]: Listen: 4
 ...
 ```
+
 
 # 必要なソフトウェア
 * Python 3
