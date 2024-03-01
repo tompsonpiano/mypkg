@@ -49,7 +49,7 @@ $ ros2 run mypkg listener
 ```
 
 ## talk_listen.launch.py
-本ノードは一つの端末内でtalker.pyとlistener.pyを実行することができます。
+本ノードは一つのターミナル内でtalker.pyとlistener.pyを実行することができます。
 以下のコマンドで実行できます。
 ```
 $ ros2 launch mypkg talk_listen.launch.py
