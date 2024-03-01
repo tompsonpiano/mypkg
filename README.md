@@ -7,7 +7,7 @@ ROS 2のノード通信により、パブリッシャー(talker)が発信した�
 
 本パッケージに含まれるノードは"countup"と呼ばれるトピックを使用して通信が行われます。
 
-## 使用方法
+# 使用方法
 本パッケージを、ROS 2のワークスペースのsrcに以下のように配置してください。
 ```
 ...
@@ -18,7 +18,9 @@ ROS 2のノード通信により、パブリッシャー(talker)が発信した�
     │   ├── launch
     │   │   └── ...
     │   ├── ...
+    ...
 ```
+
 ```
 ros2 run mypkg talker
 ```
@@ -42,17 +44,18 @@ ros2 run mypkg listener
 ```
 
 
-## 必要なソフトウェア
+# 必要なソフトウェア
 * Python 3
 * ROS 2 
     * foxy または humble
 
-## テスト環境
+# テスト環境
 * Ubuntu
 
 
-## ライセンス
+# ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+
 © 2023 Tomohiro Hayashi
