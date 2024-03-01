@@ -1,5 +1,5 @@
 # mypkg
-* ![test](https://github.com/tompsonpiano/ros2_ws/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/tompsonpiano/ros2_ws/actions/workflows/test.yml/badge.svg)
 
 ロボットシステム学の練習用パッケージです。
 
