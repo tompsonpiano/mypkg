@@ -5,8 +5,6 @@
 
 ROS 2のノード通信により、パブリッシャー(talker)が発信した内容をサブスクライバー(listener)が受け取り表示します。
 
-本パッケージに含まれるノードは"countup"と呼ばれるトピックを使用して通信が行われます。
-
 # 使用方法
 本パッケージを、ROS 2のワークスペースのsrcに以下のように配置してください。
 ```
@@ -22,6 +20,8 @@ ROS 2のノード通信により、パブリッシャー(talker)が発信した�
 ```
 # ノード
 本パッケージには以下の三つのノードが含まれます。
+
+
 
 ## talker.py
 本ノードはcountupトピックを通して、カウントした数字を発信するパブリッシャです。
@@ -59,14 +59,13 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1709293046.646651069] [listener]: Listen: 2
 [listener-2] [INFO] [1709293047.146969288] [listener]: Listen: 3
 [listener-2] [INFO] [1709293047.646416228] [listener]: Listen: 4
-[listener-2] [INFO] [1709293048.146597708] [listener]: Listen: 5
 ...
 ```
 
 # 必要なソフトウェア
 * Python 3
 * ROS 2 
-    * foxy または humble
+    * foxy (Ubuntu 20.04) または humble (Ubuntu 22.04)
 
 # テスト環境
 * Ubuntu
