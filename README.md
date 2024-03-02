@@ -23,7 +23,7 @@ ROS 2のノード通信により、パブリッシャー(talker)が発信した�
 
 
 
-## talker.py
+## talker
 本ノードはcountupトピックを通して、カウントした数字を発信するパブリッシャです。
 
 以下のコマンドで実行できます。
@@ -32,7 +32,7 @@ $ ros2 run mypkg talker
 ```
 なお、実行してもターミナルには何も表示されません。
 
-## listener.py
+## listener
 本ノードはcountupトピックを受信し、パブリッシャが配信した数字を表示するサブスクライバです。
 
 以下のコマンドで実行できます。
@@ -51,7 +51,7 @@ $ ros2 run mypkg listener
 ```
 
 ## talk_listen.launch.py
-本ノードは一つのターミナル内でtalker.pyとlistener.pyを実行することができます。
+本ノードは一つのターミナル内でtalkerとlistenerを実行することができます。
 
 以下のコマンドで実行できます。
 ```
