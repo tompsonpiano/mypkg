@@ -19,7 +19,7 @@ ROS 2のノード通信により、パブリッシャー(talker)が発信した�
     ...
 ```
 # ノード
-本パッケージには以下の三つのノードが含まれます。
+本パッケージには以下の2つのノードが含まれます。
 
 
 
@@ -50,8 +50,8 @@ $ ros2 run mypkg listener
 ...
 ```
 
-## talk_listen.launch.py
-本ノードは一つのターミナル内でtalkerとlistenerを実行することができます。
+# talk_listen.launch.py
+本プログラムは一つのターミナル内でtalkerとlistenerを実行することができます。
 
 以下のコマンドで実行できます。
 ```
